@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.tutorial, .featured, .why, .testimonial, .contact {
+    padding: 40px;
+}
+
+.tutorial-list, .why-list, .testimonial-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tutorial-item, .why-item, .testimonial-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
